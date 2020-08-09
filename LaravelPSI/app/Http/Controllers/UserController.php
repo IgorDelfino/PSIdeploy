@@ -35,3 +35,4 @@ class UserController extends Controller
         return response()->json(['message' => $message, 'title' => $title], 200);
     }
 }
+
